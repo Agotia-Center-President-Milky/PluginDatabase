@@ -1,0 +1,93 @@
+  PluginModules:
+    PluginName: "XXXPORT"
+    PluginVersion: "1.0.0"
+    PluginPassword: "*//*//*//*"
+
+      services:
+        nodePort: false
+        nodeSplitterPort: true
+
+         boolTools:
+          UpdateService: yes
+          NodeUpdateService: yes
+
+           containers:
+             container1: true
+             container2: true
+             containerSplitter: yes
+             containerNodeSplitter: no
+    positionUpdate: yes
+    positionAcceleration: 18.2
+
+       workerServices: true,
+       workerUpdateService: true
+
+           table: "formula", yes
+           sigorta: 100
+
+
+              table.sigorta: true
+
+
+commands:
+
+     command1_Script: "force.update.package",
+       command1_encode: reupdate.package;
+
+       variable: "LFX": id.user.account
+
+         command2_Script: "write.id" : "write.idx",
+         command2_encode: write.console: LFX;
+
+
+           
+
+       tileengine: true
+   IDX: LFX.GENERAL.PACK
+     true
+     false
+     yes
+     no
+
+        portres: true, "generalPack": commandBase:
+
+                portresName: AccountUsername: username()
+                portresLocation: blank.code.link: portres,
+
+
+                 portresDescription: "DESCRIPTION",
+
+                    write:
+                       portresName: yes
+                       portresLocation: yes
+                       case.blank;
+                       portresDescription: yes
+
+
+
+                        {
+                          nodeVITION: TRUE,
+
+                            eye: true,
+                              scription_encode: "encode", TRUE
+                              scription_decode: "decode", TRUE
+                            
+                        }
+                        
+
+                           app:
+    image: node:12-alpine
+    command: sh -c "yarn install && yarn run dev"
+    ports:
+      - 3000:3000
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: secret
+      MYSQL_DB: todos
+
+
+          codes: portre
