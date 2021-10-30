@@ -1,0 +1,21 @@
+{
+    "database": "quick",
+    "databaseJSON": "EMBED",
+    
+    "license": "ISC",
+    
+    "lase": "exe",
+    "config": "lase",
+    
+    "PasificLocation": "DATABASE.DB",
+    "ConfigData": ".gittignore",
+    
+      "Config": {
+         "ConfigData": "config.gittignore",
+         "Settings": "Module.ini",
+         "prototype": {
+           "setup": "lase.js",
+            "$schema": "http://json-schema.org/draft-07/schema"
+  }
+  }
+  }
